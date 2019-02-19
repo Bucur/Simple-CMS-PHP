@@ -1,0 +1,1 @@
+[19-Feb-2019 21:36:31 Europe/Bucharest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/devbloom/cms.devbloom.ro/admin.php:35) in /home/devbloom/cms.devbloom.ro/admin.php on line 166
