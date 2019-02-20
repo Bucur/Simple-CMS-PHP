@@ -1,12 +1,6 @@
 <?php
 
-error_reporting(E_ALL);
-
-const DB_USER = 'devbloom_cms';
-const DB_PASS = 'cms2018!!';
-const DB_HOST = 'localhost';
-const DB_NAME = 'devbloom_cms';
-
+include_once 'database.php';
 $conn = new MySQLi(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 if ($conn->connect_error) {
