@@ -1,8 +1,8 @@
 <?php
 $server = 'localhost';
-$username = 'devbloom_cms';
-$password = 'cms2018!!';
-$database = 'devbloom_cms';
+$username = 'username';
+$password = 'password';
+$database = 'databasename';
 
 try{
 	$conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
